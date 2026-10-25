@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Municipalidad de Freirina</title>
+    <meta name="description" content="Portal de información y servicios de la Municipalidad de Freirina.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ==========================
+         BARRA INSTITUCIONAL
+    =========================== -->
+
+    <div class="barra-superior">
+        <div class="contenedor barra-superior-contenido">
+
+            <span></span>
+
+            <div class="barra-superior-enlaces">
+                <a href="#contacto">Contacto</a>
+                <a href="#servicios">Servicios municipales</a>
+                <a href="municipalidad.html">Municipalidad</a>
+                
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- ==========================
+         ENCABEZADO Y BUSCADOR
+    =========================== -->
+
+    <header class="encabezado">
+
+        <div class="contenedor encabezado-contenido">
+
+            <!-- LOGO MUNICIPAL -->
+
+            <a href="index.html" class="marca" aria-label="Ir al inicio">
+
+                <div class="logo-contenedor">
+
+                 
+                    <img
+                        src="logofreirina01"
+                        alt="Logo Municipalidad de Freirina"
+                        class="logo-imagen"
+                    >
+               
+
+                </div>
+
+                <div class="marca-texto">
+                    <h1>Municipalidad<br>de Freirina</h1>
+                    <span>Región de Atacama</span>
+                </div>
+
+            </a>
+
+
+            <!-- BUSCADOR -->
+
+            <form class="buscador" id="formulario-busqueda" role="search">
+
+                <input
+                    type="search"
+                    id="campo-busqueda"
+                    placeholder="¿Qué estás buscando?"
+                    aria-label="Buscar información"
+                    required
+                >
+
+                <button type="submit" aria-label="Buscar">
+
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <circle cx="10.8" cy="10.8" r="6.8"></circle>
+                        <path d="m16 16 5 5"></path>
+                    </svg>
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </header>
+
+
+    <!-- ==========================
+         NAVEGACIÓN PRINCIPAL
+    =========================== -->
+
+    <nav class="navegacion" aria-label="Navegación principal">
+
+        <div class="contenedor">
+
+            <ul class="menu">
+
+                <li>
+                    <a href="index.html" class="activo">Inicio</a>
+                </li>
+
+
+                <li>
+                    <a href="tramites.html">Trámites y servicios</a>
+                </li>
+
+                <li>
+                    <a href="#noticias">Noticias</a>
+                </li>
+
+               <li>
+                    <a href="cultura.html">Cultura y Turismo</a> 
+                </li>
+              
+                <li>
+                    <a href="transparencia.html" class="enlace-transparencia">
+                        Ley de Transparencia
+                    </a>
+                </li>
+
+                <li>
+                    <a href="lobby.html" class="enlace-lobby">
+                        Ley del Lobby
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+
+    <!-- ==========================
+         PORTADA PRINCIPAL
+    =========================== -->
+
+    <main>
+
+        <section class="portada">
+
+            <div class="contenedor portada-contenido">
+
+                <div class="portada-texto">
+
+                    <span class="etiqueta">
+                        Bienvenidos y bienvenidas
+                    </span>
+
+                    <h2>
+                        Municipalidad<br>
+                        de <span>Freirina</span>
+                    </h2>
+
+                    <p>
+                        Un municipio cercano a su comunidad, comprometido
+                        con el desarrollo local, la participación ciudadana
+                        y el bienestar de sus habitantes.
+                    </p>
+
+                    <div class="portada-botones">
+
+                        <a href="tramites.html" class="boton boton-principal">
+                            Revisar trámites
+                            <span>→</span>
+                        </a>
+
+                        <a href="municipalidad.html" class="boton boton-secundario">
+                            Conocer la municipalidad
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ILUSTRACIÓN DECORATIVA -->
+
+                <div class="portada-ilustracion" aria-hidden="true">
+
+                    <div class="circulo-fondo"></div>
+                    <div class="circulo-fondo secundario"></div>
+
+                    <div class="tarjeta-ilustrada">
+
+                         <img
+                        src="logofreirina01"
+                        alt="Logo Municipalidad de Freirina"
+                        class="logo-imagen"
+                    >
+                        
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================
+             ACCESOS RÁPIDOS
+        =========================== -->
+
+        <section class="seccion-accesos">
+
+            <div class="contenedor">
+
+                <div class="encabezado-seccion">
+
+                    <span class="etiqueta">Accesos rápidos</span>
+
+                    <h2>¿Qué necesitas hacer?</h2>
+
+                    <p>
+                        Encuentra fácilmente la información y los servicios
+                        que necesitas.
+                    </p>
+
+                </div>
+
+
+                <div class="rejilla-accesos">
+
+                    <a href="tramites.html" class="tarjeta-acceso">
+
+                        <div class="acceso-icono celeste">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M6 3h8l4 4v14H6z"></path>
+                                <path d="M14 3v5h4M9 12h6M9 16h6"></path>
+                            </svg>
+                        </div>
+
+                        <h3>Trámites</h3>
+
+                        <p>
+                            Consulta información sobre trámites municipales.
+                        </p>
+
+                        <span class="enlace-tarjeta">Ver trámites →</span>
+
+                    </a>
+
+
+                    <a href="transparencia.html" class="tarjeta-acceso">
+
+                        <div class="acceso-icono azul">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <circle cx="10.5" cy="10.5" r="6.5"></circle>
+                                <path d="m15.5 15.5 5 5"></path>
+                            </svg>
+                        </div>
+
+                        <h3>Transparencia</h3>
+
+                        <p>
+                            Accede a información pública municipal.
+                        </p>
+
+                        <span class="enlace-tarjeta">Consultar →</span>
+
+                    </a>
+
+
+                    <a href="lobby.html" class="tarjeta-acceso">
+
+                        <div class="acceso-icono lila">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8 12 5 9a3 3 0 0 0-4 4l5 5a4 4 0 0 0 5 0l2-2"></path>
+                                <path d="m16 12 3-3a3 3 0 0 1 4 4l-5 5a4 4 0 0 1-5 0l-2-2"></path>
+                                <path d="m8 12 4 4 4-4M8 12l-2-2M16 12l2-2"></path>
+                            </svg>
+                        </div>
+
+                        <h3>Ley del Lobby</h3>
+
+                        <p>
+                            Información sobre audiencias y gestiones de intereses.
+                        </p>
+
+                        <span class="enlace-tarjeta">Conocer más →</span>
+
+                    </a>
+
+
+                    <a href="#contacto" class="tarjeta-acceso">
+
+                        <div class="acceso-icono verde">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M4 5h16v14H4z"></path>
+                                <path d="m4 7 8 6 8-6"></path>
+                            </svg>
+                        </div>
+
+                        <h3>Contacto</h3>
+
+                        <p>
+                            Encuentra los canales de contacto municipal.
+                        </p>
+
+                        <span class="enlace-tarjeta">Contactar →</span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==========================
+             NOTICIAS
+        =========================== -->
+
+        <section class="seccion seccion-noticias" id="noticias">
+
+            <div class="contenedor">
+
+                <div class="encabezado-noticias">
+
+                    <div>
+                        <span class="etiqueta">Actualidad</span>
+                        <h2>Noticias municipales</h2>
+                        <p>
+                            Información y actividades de interés para la comunidad.
+                        </p>
+                    </div>
+
+
+                </div>
+
+
+                <div class="rejilla-noticias">
+
+                    <article class="tarjeta-noticia">
+
+                        <div class="noticia-imagen imagen-comunidad">
+                            <img
+                                src="https://static.vecteezy.com/system/resources/previews/014/277/735/original/election-concept-ballot-box-people-putting-ballot-paper-in-the-ballot-box-president-elections-voting-making-choice-freedom-democracy-group-of-voters-vector.jpg"
+                                alt="Personas participando en una actividad comunitaria"
+                                loading="lazy"
+                            >
+                            <span class="noticia-categoria">Elecciones</span>
+                        </div>
+
+                        <div class="noticia-contenido">
+
+                            <h3>Elección de Directiva Agrupación Cultural y Social Pequeños Navegantes por la Neurodivergencia</h3>
+
+                            <p>
+                               14 de noviembre de 2026
+                            
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="tarjeta-noticia">
+
+                        <div class="noticia-imagen imagen-municipio">
+                            <img
+                                src="https://static.vecteezy.com/system/resources/previews/014/277/735/original/election-concept-ballot-box-people-putting-ballot-paper-in-the-ballot-box-president-elections-voting-making-choice-freedom-democracy-group-of-voters-vector.jpg"
+                                alt="Espacio de trabajo y organización"
+                                loading="lazy"
+                            >
+                            <span class="noticia-categoria">Elecciones</span>
+                        </div>
+
+                        <div class="noticia-contenido">
+
+                            <h3>Elección de Directiva Comité Habitacional Raíz Rural</h3>
+
+                            <p>
+                                06 de noviembre de 2026
+                             
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="tarjeta-noticia">
+
+                        <div class="noticia-imagen imagen-territorio">
+                            <img
+                                src="https://static.vecteezy.com/system/resources/previews/014/277/735/original/election-concept-ballot-box-people-putting-ballot-paper-in-the-ballot-box-president-elections-voting-making-choice-freedom-democracy-group-of-voters-vector.jpg"
+                                alt="Paisaje natural"
+                                loading="lazy"
+                            >
+                            <span class="noticia-categoria">Elecciones</span>
+                        </div>
+
+                        <div class="noticia-contenido">
+
+                            <h3>Elección de Directiva Agrupación Social Cultural Etnia Changa de Bahia Carrizalillo Pueblo de Carrizalillo</h3>
+
+                            <p>
+                                30 de octubre de 2026
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================
+             FRANJA DE AYUDA
+        =========================== -->
+
+        <section class="franja-ayuda">
+
+            <div class="contenedor ayuda-contenido">
+
+                <div class="ayuda-icono">?</div>
+
+                <div class="ayuda-texto">
+                    <h2>¿Necesitas ayuda?</h2>
+                    <p>
+                        Revisa los canales de atención y encuentra la información que buscas.
+                    </p>
+                </div>
+
+                <a href="#contacto" class="boton boton-blanco">
+                    Información de contacto →
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==========================
+         PIE DE PÁGINA
+    =========================== -->
+
+    <footer class="pie-pagina" id="contacto">
+
+        <div class="contenedor pie-contenido">
+
+
+            <!-- IDENTIDAD MUNICIPAL -->
+
+            <div class="pie-identidad">
+
+                <div class="pie-logo">
+
+
+                    <img
+                        src="logofreirina01"
+                        alt="Logo Municipalidad de Freirina"
+                        class="logo-imagen"
+                    >
+
+                </div>
+
+                <div class="pie-identidad-texto">
+                    <h3>Municipalidad<br>de Freirina</h3>
+                    <p>Región de Atacama</p>
+                </div>
+
+            </div>
+
+
+            <!-- ENLACES -->
+
+            <div class="pie-enlaces">
+
+                <h4>Explora el sitio</h4>
+
+                <a href="index.html">Inicio</a>
+                <a href="municipalidad.html">Municipalidad</a>
+                <a href="tramites.html">Trámites y servicios</a>
+                <a href="transparencia.html">Ley de Transparencia</a>
+                <a href="lobby.html">Ley del Lobby</a>
+
+            </div>
+
+
+            <!-- REDES SOCIALES -->
+
+            <div class="pie-redes">
+
+                <h4>Síguenos en redes</h4>
+
+                <div class="iconos-redes">
+
+                    <!-- INSTAGRAM -->
+
+                    <a
+                        href="https://linktr.ee/nuestrasredesmunifreirina"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="icono-red"
+                        aria-label="Instagram municipal"
+                        title="Instagram"
+                    >
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                            <circle cx="12" cy="12" r="4"></circle>
+                            <circle cx="17.5" cy="6.5" r="1" class="punto"></circle>
+                        </svg>
+                    </a>
+
+
+                    <!-- FACEBOOK -->
+
+                    <a
+                        href="https://linktr.ee/nuestrasredesmunifreirina"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="icono-red"
+                        aria-label="Facebook municipal"
+                        title="Facebook"
+                    >
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M14 21v-8h3l.5-4H14V7c0-1.2.4-2 2-2h2V1.5C17.3 1.3 16.3 1.2 15 1.2c-3.5 0-5.5 2.1-5.5 5.8V9H6v4h3.5v8z"></path>
+                        </svg>
+                    </a>
+
+
+                    <!-- YOUTUBE -->
+
+                    <a
+                        href="https://www.youtube.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="icono-red"
+                        aria-label="YouTube"
+                        title="YouTube"
+                    >
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M23 7a3 3 0 0 0-2-2C19 4.5 12 4.5 12 4.5S5 4.5 3 5a3 3 0 0 0-2 2 25 25 0 0 0-.5 5 25 25 0 0 0 .5 5 3 3 0 0 0 2 2c2 .5 9 .5 9 .5s7 0 9-.5a3 3 0 0 0 2-2 25 25 0 0 0 .5-5 25 25 0 0 0-.5-5z"></path>
+                            <path class="play" d="m10 9 6 3-6 3z"></path>
+                        </svg>
+                    </a>
+
+
+                    <!-- X / TWITTER -->
+
+                    <a
+                        href="https://x.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="icono-red"
+                        aria-label="X o Twitter"
+                        title="X / Twitter"
+                    >
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M18.9 2H22l-6.8 7.8L23.2 22h-6.3L12 14.6 5.6 22H2.5l7.3-8.4L1.8 2h6.4l4.5 6.8zM17.8 20h1.7L7.2 3.9H5.4z"></path>
+                        </svg>
+                    </a>
+
+                </div>
+
+                <p class="pie-redes-texto">
+                    Conoce las novedades de nuestra comuna.
+                </p>
+
+            </div>
+
+
+            <!-- CONTACTO -->
+
+            <div class="pie-contacto">
+
+                <h4>Contacto y ubicación</h4>
+
+                <a href="tel:+5651401300" class="contacto-item">
+
+                    <span class="contacto-icono">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M5 3h4l2 5-3 2a15 15 0 0 0 6 6l2-3 5 2v4c0 1-1 2-2 2A17 17 0 0 1 3 5c0-1 1-2 2-2z"></path>
+                        </svg>
+                    </span>
+
+                    <span>+56 51 401 300</span>
+
+                </a>
+
+
+                <a
+                    href="https://www.google.com/maps/search/?api=1&query=Municipalidad+de+Freirina+OHiggins+1016"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contacto-item"
+                >
+
+                    <span class="contacto-icono">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0z"></path>
+                            <circle cx="12" cy="10" r="2.5"></circle>
+                        </svg>
+                    </span>
+
+                    <span>O'Higgins 1016, Freirina</span>
+
+                </a>
+
+                <a
+                    href="https://www.google.com/maps/search/?api=1&query=Municipalidad+de+Freirina+OHiggins+1016"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="enlace-mapa"
+                >
+                    Ver ubicación en el mapa ↗
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- BARRA INFERIOR -->
+
+        <div class="pie-inferior">
+
+            <div class="contenedor pie-inferior-contenido">
+
+                <p>Propuesta web - Municipalidad de Freirina</p>
+
+                <a
+                    href="https://imfreirina.cl/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Sitio oficial ↗
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ==========================
+         FUNCIONAMIENTO DEL BUSCADOR
+    =========================== -->
+
+    <script>
+        const formularioBusqueda = document.getElementById("formulario-busqueda");
+        const campoBusqueda = document.getElementById("campo-busqueda");
+
+        formularioBusqueda.addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            const consulta = campoBusqueda.value.trim();
+
+            if (!consulta) {
+                return;
+            }
+
+            const busqueda = "https://www.google.com/search?q="
+                + encodeURIComponent(consulta + " site:imfreirina.cl");
+
+            window.open(busqueda, "_blank", "noopener,noreferrer");
+        });
+    </script>
+
+</body>
+</html>
